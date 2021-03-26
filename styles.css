@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  height: 25px;
+  height: 40px;
   display: flex;
   justify-content: flex-end;
 }
@@ -29,9 +29,31 @@ main {
 .product-item {
   width: 260px;
   height: 200px;
+  border: 2px solid black;
+  border-radius: 15px;
   text-align: center;
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.09);
+  background-color: rgba(59, 241, 241, 0.09);
+}
+
+.buy-btn, .btn-cart {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 1px solid black;
+  margin: 0 0.3em 0.3em 0;
+  background-color: #8cc3ea;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+}
+.buy-btn:visited, .btn-cart:visited {
+  border: none;
+}
+.buy-btn:hover, .btn-cart:hover {
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=styles.css.map */
